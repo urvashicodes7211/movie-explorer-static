@@ -30,10 +30,12 @@ body{
     margin-right: auto;
 }
 .hero{
-    height: 500px;
-    border: 1px solid white;
+    height: 600px;
+    background-image: url("Twisters.jpg");
+    background-size: cover;
+    background-position: center;
 }
-.popularMv{
+.Mv{
     color: white;
     padding: 40px;
 }
@@ -41,16 +43,21 @@ body{
     background-color: #1c1c1c;
     color: white;
     border: none;
+    cursor: pointer;
     transition: 0.3s;
-    height: 100px;
-    transition:0.3s;
-    cursor:pointer;
+}
+.card img{
+    height: 300px;
+    object-fit: cover;
 }
 .card:hover{
-    transform:scale(1.05);
+    transform: scale(1.05);
 }
 .mvheading{
     padding: 10px;
     /* border: 1px solid white; */
     margin-bottom: 25px;
 }
+/* .container{
+    max-width: 1320px;
+} */
